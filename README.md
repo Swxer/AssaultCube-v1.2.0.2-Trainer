@@ -8,6 +8,7 @@ This project is completed by using Cheat Engine, C# and Visual Studio 2019 which
 
 AssaultCube trainer will allow you to hack AssaultCube with infinite HP, ammo and grenade. 
 This trainer will only work for AssaultCube v1.2.0.2. 
+If you are interested and want a copy of the game, [click here](https://github.com/assaultcube/AC/releases/tag/v1.2.0.2) and download it.
 
 To get the executable, go to `/Application/x86` for 32-bit and `/Application/x64` for 64 bit.
 The executable must be present in the folder. If you want it outside the folder, make a shortcut.

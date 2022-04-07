@@ -1,7 +1,10 @@
 # AssaultCube-v1.2.0.2-Trainer
-A 'Something Awesome' project for COMP6841 22T1.
+A 'Something Awesome' project for COMP6841 22T1 UNSW. The project is broad which means I can pick anything I want,
+so my topic of interest would be game hacking. 
 
 ![image](https://user-images.githubusercontent.com/29741824/162199761-9e07c785-ce8f-4a2e-9916-0485a814acc4.png)
+
+This project is completed by using Cheat Engine, C# and Visual Studio 2019 which supports Window Forms Design. 
 
 AssaultCube trainer will allow you to hack AssaultCube with infinite HP, ammo and grenade. 
 This trainer will only work for AssaultCube v1.2.0.2. 

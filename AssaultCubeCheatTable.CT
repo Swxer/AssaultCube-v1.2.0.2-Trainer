@@ -49,18 +49,6 @@
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>85</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>4E0</Offset>
-            <Offset>6C</Offset>
-            <Offset>DFC</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
           <ID>86</ID>
           <Description>"ammo pointer"</Description>
           <VariableType>4 Bytes</VariableType>
@@ -89,45 +77,6 @@
           </Offsets>
         </CheatEntry>
         <CheatEntry>
-          <ID>88</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>438</Offset>
-            <Offset>A4</Offset>
-            <Offset>A4</Offset>
-            <Offset>34</Offset>
-            <Offset>9E8</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>89</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>438</Offset>
-            <Offset>34</Offset>
-            <Offset>34</Offset>
-            <Offset>A0</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>90</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>400</Offset>
-            <Offset>6C</Offset>
-            <Offset>244</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
           <ID>91</ID>
           <Description>"ammo pointer"</Description>
           <VariableType>4 Bytes</VariableType>
@@ -138,72 +87,6 @@
             <Offset>6C</Offset>
             <Offset>89C</Offset>
             <Offset>8</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>92</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>390</Offset>
-            <Offset>6C</Offset>
-            <Offset>6C</Offset>
-            <Offset>34</Offset>
-            <Offset>A4</Offset>
-            <Offset>980</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>93</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>390</Offset>
-            <Offset>6C</Offset>
-            <Offset>6C</Offset>
-            <Offset>A4</Offset>
-            <Offset>A4</Offset>
-            <Offset>D9C</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>94</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>320</Offset>
-            <Offset>34</Offset>
-            <Offset>96C</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>95</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>278</Offset>
-            <Offset>DA8</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>96</ID>
-          <Description>"ammo pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B0</Offset>
-            <Offset>34</Offset>
-            <Offset>34</Offset>
-            <Offset>DFC</Offset>
-            <Offset>810</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>
@@ -414,123 +297,6 @@
             <Offset>34</Offset>
             <Offset>DFC</Offset>
             <Offset>8</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>112</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>38</Offset>
-            <Offset>34</Offset>
-            <Offset>634</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>114</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>38</Offset>
-            <Offset>6C</Offset>
-            <Offset>164</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>116</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>38</Offset>
-            <Offset>A4</Offset>
-            <Offset>194</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>118</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>70</Offset>
-            <Offset>34</Offset>
-            <Offset>34</Offset>
-            <Offset>89C</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>119</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>70</Offset>
-            <Offset>6C</Offset>
-            <Offset>34</Offset>
-            <Offset>50C</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>121</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>70</Offset>
-            <Offset>6C</Offset>
-            <Offset>A4</Offset>
-            <Offset>2A4</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>123</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>70</Offset>
-            <Offset>A4</Offset>
-            <Offset>34</Offset>
-            <Offset>E58</Offset>
-            <Offset>810</Offset>
-          </Offsets>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>125</ID>
-          <Description>"grenade pointer"</Description>
-          <VariableType>4 Bytes</VariableType>
-          <Address>"ac_client.exe"+0012CB90</Address>
-          <Offsets>
-            <Offset>2B8</Offset>
-            <Offset>A4</Offset>
-            <Offset>70</Offset>
-            <Offset>A4</Offset>
-            <Offset>6C</Offset>
-            <Offset>200</Offset>
-            <Offset>810</Offset>
           </Offsets>
         </CheatEntry>
         <CheatEntry>

@@ -253,7 +253,7 @@ namespace AssaultCubeTrainer
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.ShowIcon = false;
-            this.Text = "AssaultCube v1.2.0.2 Trainer x86";
+            this.Text = "AssaultCube v1.2.0.2 Trainer";
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

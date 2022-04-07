@@ -18,6 +18,10 @@ namespace AssaultCubeTrainer
     {
         // this Mem structure are from the package Memory.dll
         public Mem m = new Mem();
+
+        string ammoAddress = "base+0010A280,8,458,70,4e0";
+        string healthAddress = "base+0010F418,58,200,48,1e8,8,f8";
+        string grenadeAddress = "base+0010F418,58,1d8,48,1f8,40,28";
         public MainForm()
         {
             InitializeComponent();
@@ -57,15 +61,15 @@ namespace AssaultCubeTrainer
 
             // the following memory address for these are obtained from Cheat Engine
             if (infiniteHealth.Checked) {
-                m.WriteMemory("base+0010F418,58,200,48,1e8,8,f8", "int", "9999");
+                m.WriteMemory(healthAddress, "int", "9999");
             }
 
             if (infiniteAmmo.Checked) {
-                m.WriteMemory("base+0012CB90,810,dfc,6c,4e0", "int", "9999");
+                m.WriteMemory(ammoAddress, "int", "9999");
             }
 
             if (infiniteGrenade.Checked) {
-                m.WriteMemory("base+000FA158,c4,4,0,e14,34,34,2b8", "int", "9999");
+                m.WriteMemory(grenadeAddress, "int", "9999");
             }
 
         }
@@ -78,17 +82,17 @@ namespace AssaultCubeTrainer
         // These button function will write the new value into the following addresses
         private void ammoButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+0012CB90,810,dfc,6c,4e0", "int", ammoInput.Text);
+            m.WriteMemory(ammoAddress, "int", ammoInput.Text);
         }
 
         private void healthButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+0010F418,58,1f8,48,1f8,8,f8", "int", healthInput.Text);
+            m.WriteMemory(healthAddress, "int", healthInput.Text);
         }
 
         private void grenadeButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+000FA158,c4,4,0,e14,34,34,2b8", "int", grenadeInput.Text);
+            m.WriteMemory(grenadeAddress, "int", grenadeInput.Text);
         }
     }
 }

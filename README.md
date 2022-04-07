@@ -6,7 +6,7 @@ A 'Something Awesome' project for COMP6841 22T1.
 AssaultCube trainer will allow you to hack AssaultCube with infinite HP, ammo and grenade. 
 This trainer will only work for AssaultCube v1.2.0.2. 
 
-To get the executable, go to `/Application/x86` for 32-bit and `/Application/x86` for 64 bit.
+To get the executable, go to `/Application/x86` for 32-bit and `/Application/x64` for 64 bit.
 The executable must be present in the folder. If you want it outside the folder, make a shortcut.
 
 # Note

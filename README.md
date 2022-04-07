@@ -9,6 +9,9 @@ This trainer will only work for AssaultCube v1.2.0.2.
 To get the executable, go to `/Application/x86` for 32-bit and `/Application/x64` for 64 bit.
 The executable must be present in the folder. If you want it outside the folder, make a shortcut.
 
+If you are curious about what memory addresses are being used, the Cheat Engine table is also
+supplied and it contain pointers for health, ammo and grenade. 
+
 # Note
 The trainer works on my machine and it should work for yours. If not then it is what it is :^)
 

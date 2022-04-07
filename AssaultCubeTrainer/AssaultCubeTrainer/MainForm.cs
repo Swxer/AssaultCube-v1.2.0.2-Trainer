@@ -61,11 +61,11 @@ namespace AssaultCubeTrainer
             }
 
             if (infiniteAmmo.Checked) {
-                m.WriteMemory("base+0010A280,8,3d4,6c,a4,34,430", "int", "9999");
+                m.WriteMemory("base+0012CB90,810,dfc,6c,4e0", "int", "9999");
             }
 
             if (infiniteGrenade.Checked) {
-                m.WriteMemory("base+0010A280,97c,6c,6c,a4,a4,34,440", "int", "9999");
+                m.WriteMemory("base+000FA158,c4,4,0,e14,34,34,2b8", "int", "9999");
             }
 
         }
@@ -78,17 +78,17 @@ namespace AssaultCubeTrainer
         // These button function will write the new value into the following addresses
         private void ammoButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+0010A280,8,3d4,6c,a4,34,430", "int", ammoInput.Text);
+            m.WriteMemory("base+0012CB90,810,dfc,6c,4e0", "int", ammoInput.Text);
         }
 
         private void healthButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+0010F418,58,200,48,1e8,8,f8", "int", healthInput.Text);
+            m.WriteMemory("base+0010F418,58,1f8,48,1f8,8,f8", "int", healthInput.Text);
         }
 
         private void grenadeButton_Click(object sender, EventArgs e)
         {
-            m.WriteMemory("base+0010A280,97c,6c,6c,a4,a4,34,440", "int", grenadeInput.Text);
+            m.WriteMemory("base+000FA158,c4,4,0,e14,34,34,2b8", "int", grenadeInput.Text);
         }
     }
 }

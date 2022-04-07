@@ -109,11 +109,11 @@ namespace AssaultCubeTrainer
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(141, 205);
+            this.label2.Location = new System.Drawing.Point(138, 205);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 13);
+            this.label2.Size = new System.Drawing.Size(219, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Trainer created by Steven Long Nguyen";
+            this.label2.Text = "Trainer programmed by Steven Long Nguyen";
             // 
             // label3
             // 
@@ -253,7 +253,7 @@ namespace AssaultCubeTrainer
             this.Controls.Add(this.label1);
             this.Name = "MainForm";
             this.ShowIcon = false;
-            this.Text = "AssaultCube v1.2.0.2 Trainer x64";
+            this.Text = "AssaultCube v1.2.0.2 Trainer x86";
             this.Shown += new System.EventHandler(this.MainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

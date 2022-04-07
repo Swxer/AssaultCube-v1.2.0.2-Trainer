@@ -15,7 +15,7 @@ supplied and it contain pointers for health, ammo and grenade.
 # Note
 The trainer works on my machine and it should work for yours. If not then it is what it is :^)
 
-The trainer may not work and these following might happen:
+The trainer may not work or have unexpected behaviour and these might happen in your game:
   * When you click on the checkbox and the corresponding element do not update,
     then there must be something wrong with the memory address when writing 
     something to it. Sometimes restarting the game will do the trick.
